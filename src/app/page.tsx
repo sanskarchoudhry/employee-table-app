@@ -1,5 +1,10 @@
-import Image from "next/image";
+import React from "react";
+import EmployeeTable from "./_components/EmployeeTable";
 
-export default function Home() {
-  return <></>;
+export default function HomePage() {
+  return (
+    <>
+      <EmployeeTable></EmployeeTable>
+    </>
+  );
 }
